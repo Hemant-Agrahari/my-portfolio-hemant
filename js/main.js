@@ -128,7 +128,7 @@
       const email = document.getElementById('contactEmail').value;
       const name = document.getElementById('contactName').value;
       const msg = document.getElementById('contactMsg').value;
-      window.location.href = 'mailto:rishithakor218@gmail.com?subject=' +
+      window.location.href = 'mailto:hemantkagrahari@gmail.com?subject=' +
         encodeURIComponent('Project enquiry from ' + name) + '&body=' +
         encodeURIComponent(msg + '\n\nFrom: ' + name + ' <' + email + '>');
     });
